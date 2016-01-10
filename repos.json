@@ -1,6 +1,7 @@
 {
   "repos": {
-    "android-times-square": ["Android"],
+    "Simple-Calculator": ["Android"],
+    "Simple-Flashlight": ["Android"]
   },
   "custom": [
   ]
