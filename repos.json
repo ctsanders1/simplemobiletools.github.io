@@ -2,7 +2,8 @@
   "repos": {
     "Simple-Calculator": ["Android"],
     "Simple-Flashlight": ["Android"],
-    "Simple-Music-Player": ["Android"]
+    "Simple-Music-Player": ["Android"],
+    "Simple-Calendar": ["Android"]
   },
   "custom": [
   ]
