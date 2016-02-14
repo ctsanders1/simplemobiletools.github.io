@@ -3,7 +3,8 @@
     "Simple-Calculator": ["Android"],
     "Simple-Flashlight": ["Android"],
     "Simple-Music-Player": ["Android"],
-    "Simple-Calendar": ["Android"]
+    "Simple-Calendar": ["Android"],
+    "Simple-Notes": ["Android"],
   },
   "custom": [
   ]
