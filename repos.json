@@ -4,7 +4,8 @@
     "Simple-Flashlight": ["Android"],
     "Simple-Music-Player": ["Android"],
     "Simple-Calendar": ["Android"],
-    "Simple-Notes": ["Android"]
+    "Simple-Notes": ["Android"],
+    "Simple-Draw": ["Android"]
   },
   "custom": [
   ]
