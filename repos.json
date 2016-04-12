@@ -6,7 +6,8 @@
     "Simple-Calendar": ["Android"],
     "Simple-Notes": ["Android"],
     "Simple-Draw": ["Android"],
-    "Simple-Gallery": ["Android"]
+    "Simple-Gallery": ["Android"],
+    "Simple-Camera": ["Android"]
   },
   "custom": [
   ]
