@@ -93,7 +93,7 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
       'website': repo_data.get('homepage', None),
       'description': repo_data.get('description', None)
     }
-    if os.path.exists(os.path.join('repo_images', '%s.jpg' % name)):
+    if os.path.exists(os.path.join('repo_images', '%s.png' % name)):
       data['repos_with_images'].append(repo)
       data['has_repos_with_images'] = True
     else:
