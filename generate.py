@@ -87,10 +87,11 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
   # Loop over category repos sorted alphabetically (case-insensitive).
   for repo_data in sorted(categories[category_name], key=lambda s: s['name'].lower()):
     name = repo_data['name']
+    shortname = name.split('-', 1)[1].lower().replace('-', '')
     repo = {
       'name': name,
       'href': repo_data['html_url'],
-      'website': repo_data.get('homepage', None),
+      'website': 'https://play.google.com/store/apps/details?id=com.simplemobiletools.' + shortname,
       'description': repo_data.get('description', None)
     }
     if os.path.exists(os.path.join('repo_images', '%s.png' % name)):
