@@ -10,8 +10,8 @@
 
     <link rel="shortcut icon" href="/assets/public/favicon.ico" />
 
-    <meta property="og:image" content="http://simplemobiletools.github.io/images/logo.png" />
-    <meta property="og:url" content="http://simplemobiletools.github.io/" />
+    <meta property="og:image" content="https://simplemobiletools.github.io/images/logo.png" />
+    <meta property="og:url" content="https://simplemobiletools.github.io/" />
     <meta property="og:site_name" content="Simple Mobile Tools" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Simple Mobile Tools" />
@@ -34,7 +34,7 @@
           </header>
           <aside class="profile-summary">
             <div class="summary-location summary-module">
-              <a href="http://github.com/SimpleMobileTools">github.com/simplemobiletools</a>
+              <a href="https://github.com/SimpleMobileTools">github.com/simplemobiletools</a>
               <a href="/blog">Blog</a>
             </div>
           </aside>
@@ -56,7 +56,7 @@
               <li class="menu-item">
                 <div class="menu-item-info{{^description}} has-no-meta-content{{/description}}">
                   <h4 class="menu-item-name">{{name}}</h4>
-                  <span class="menu-item-price"><a href="{{href}}" target="_blank">GitHub</a>{{#website}} &middot; <a href="{{website}}" target="_blank" onclick="return checkRedirect('{{website}}');">Play Store</a>{{/website}}</span>
+                  <span class="menu-item-price"><a href="{{github}}" target="_blank">GitHub</a>{{#playstore}} &middot; <a href="{{playstore}}" target="_blank" onclick="return checkRedirect('{{playstore}}');">Play Store</a>{{/playstore}}{{#f-droid}} &middot; <a href="{{f-droid}}" target="_blank" onclick="return checkRedirect('{{f-droid}}');">F-Droid</a>{{/f-droid}}</span>
 
                   {{#description}}
                   <p class="menu-item-description">{{description}}</p>
@@ -75,7 +75,7 @@
               <li class="menu-item">
                 <div class="menu-item-info{{^description}} has-no-meta-content{{/description}}">
                   <h4 class="menu-item-name">{{name}}</h4>
-                  <span class="menu-item-price">{{#website}}<a href="{{website}}" target="_blank">Website</a> &middot; {{/website}}<a href="{{href}}" target="_blank">GitHub</a></span>
+                  <span class="menu-item-price"><a href="{{github}}" target="_blank">GitHub</a>{{#playstore}} &middot; <a href="{{playstore}}" target="_blank" onclick="return checkRedirect('{{playstore}}');">Play Store</a>{{/playstore}}{{#f-droid}} &middot; <a href="{{f-droid}}" target="_blank" onclick="return checkRedirect('{{f-droid}}');">F-Droid</a>{{/f-droid}}</span>
                   {{#description}}
                   <p class="menu-item-description">{{description}}</p>
                   {{/description}}
@@ -87,7 +87,7 @@
             </div>
             {{/categories}}
 
-            <a id="btn-view-full-menu" class="btn-view-full-menu" href="http://github.com/simplemobiletools">View full list of repositories</a>
+            <a id="btn-view-full-menu" class="btn-view-full-menu" href="https://github.com/simplemobiletools">View full list of repositories</a>
           </article>
 
         </section>
@@ -99,10 +99,11 @@
         <a href="https://www.facebook.com/simplemobiletools"><img class="sociallogo" src="/assets/public/facebook.svg" alt="facebook"></a> &nbsp;
         <a href="https://plus.google.com/communities/104880861558693868382"><img class="sociallogo" src="/assets/public/gplus.svg" alt="google plus"></a> &nbsp;
         <a href="https://play.google.com/store/apps/developer?id=Simple+Mobile+Tools" onclick="return checkRedirect('');"><img class="sociallogo" src="/assets/public/google-play.png" alt="play-store"></a>
+        <a href="https://f-droid.org/repository/browse/?fdfilter=com.simplemobiletools" onclick="return checkRedirect('https://f-droid.org/repository/browse/?fdfilter=com.simplemobiletools');"><img class="sociallogo" src="/assets/public/f-droid.png" alt="F-Droid"></a>
         <ul class="footer-navigation-list">
           <li class="footer-navigation-item">Replacing your Android applications one by one since 2016</li>
         </ul>
-        <p class="copyright">This is a fork of <a href="http://square.github.io">square.github.io</a>.</p>
+        <p class="copyright">This is a fork of <a href="https://square.github.io">square.github.io</a>.</p>
       </nav>
     </footer>
 
