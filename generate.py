@@ -90,8 +90,9 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
     shortname = name.split('-', 1)[1].lower().replace('-', '')
     repo = {
       'name': name,
-      'href': repo_data['html_url'],
-      'website': 'https://play.google.com/store/apps/details?id=com.simplemobiletools.' + shortname,
+      'github': repo_data['html_url'],
+      'playstore': 'https://play.google.com/store/apps/details?id=com.simplemobiletools.' + shortname,
+      'f-droid': 'https://f-droid.org/repository/browse/?fdfilter=com.simplemobiletools.' + shortname,
       'description': repo_data.get('description', None)
     }
     if os.path.exists(os.path.join('repo_images', '%s.png' % name)):
