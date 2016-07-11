@@ -69,21 +69,6 @@
               {{/repos_with_images}}
               </ol>
               {{/has_repos_with_images}}
-              {{#has_repos_without_images}}
-              <ol class="menu-category-list">
-              {{#repos_without_images}}
-              <li class="menu-item">
-                <div class="menu-item-info{{^description}} has-no-meta-content{{/description}}">
-                  <h4 class="menu-item-name">{{name}}</h4>
-                  <span class="menu-item-price"><a href="{{github}}" target="_blank">GitHub</a>{{#playstore}} &middot; <a href="{{playstore}}" target="_blank" onclick="return checkRedirect('{{playstore}}');">Play Store</a>{{/playstore}}{{#f-droid}} &middot; <a href="{{f-droid}}" target="_blank" onclick="return checkRedirect('{{f-droid}}');">F-Droid</a>{{/f-droid}}</span>
-                  {{#description}}
-                  <p class="menu-item-description">{{description}}</p>
-                  {{/description}}
-                </div>
-              </li>
-              {{/repos_without_images}}
-              </ol>
-              {{/has_repos_without_images}}
             </div>
             {{/categories}}
 
