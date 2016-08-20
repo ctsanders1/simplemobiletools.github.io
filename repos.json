@@ -8,7 +8,8 @@
     "Simple-Draw": ["Android"],
     "Simple-Gallery": ["Android"],
     "Simple-Camera": ["Android"],
-    "Simple-File-Manager": ["Android"]
+    "Simple-File-Manager": ["Android"],
+    "Simple-App-Launcher": ["Android"]
   },
   "custom": [
   ]
