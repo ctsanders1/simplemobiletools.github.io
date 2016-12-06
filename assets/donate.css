@@ -1,0 +1,25 @@
+p {
+    color: #444444;
+}
+
+.blog-header p {
+    font-size: 1.8em;
+}
+
+.profile-description p {
+    font-size: 1.2em;
+    line-height: 1.58;
+    padding: 0 80px;
+    margin-top: 35px;
+    letter-spacing: -.003em;
+}
+
+a, .btn-view-full-menu {
+    color: #f68630;
+}
+
+.bitcoin_img {
+    width: 100px;
+    height: 100px;
+}
+
