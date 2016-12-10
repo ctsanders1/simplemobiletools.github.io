@@ -23,3 +23,9 @@ a, .btn-view-full-menu {
     height: 100px;
 }
 
+@media only screen and (max-width: 29.9375em) {
+    .profile-description p {
+        padding: 0 20px;
+    }
+}
+
