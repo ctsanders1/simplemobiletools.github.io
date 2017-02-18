@@ -26,7 +26,7 @@
         <section class="profile-masthead" id="masthead">
           <header class="profile-logo">
             <div class="profile-logo-image">
-              <a href="/"><img alt="Simple Mobile Tools" src="/images/logo.png" /></a>
+              <a href="https://simplemobiletools.github.io/"><img alt="Simple Mobile Tools" src="/images/logo.png" /></a>
             </div>
             <div class="profile-name">
               <h1>Simple Mobile Tools</h1>
@@ -34,8 +34,8 @@
           </header>
           <aside class="profile-summary">
             <div class="summary-location summary-module">
-              <a href="https://github.com/SimpleMobileTools">github.com/simplemobiletools</a>
-              <a href="/blog">Blog</a>
+              <a class="nav_item" href="https://simplemobiletools.github.io/blog/">Blog</a>
+              <a class="nav_item" href="https://simplemobiletools.github.io/donate/">Donate</a>
             </div>
           </aside>
         </section>
@@ -50,6 +50,7 @@
           <article class="profile-menu" id="menu">
             {{#categories}}
             <div id="{{index}}" class="menu-category">
+              <h3 class="menu-category-name">{{name}}</h3>
               {{#has_repos_with_images}}
               <ol class="menu-category-list has-images">
               {{#repos_with_images}}
@@ -83,7 +84,7 @@
       <nav class="footer-navigation">
         <a href="https://www.facebook.com/simplemobiletools"><img class="sociallogo" src="/assets/public/facebook.svg" alt="facebook"></a> &nbsp;
         <a href="https://plus.google.com/communities/104880861558693868382"><img class="sociallogo" src="/assets/public/gplus.svg" alt="google plus"></a> &nbsp;
-        <a href="https://play.google.com/store/apps/developer?id=Simple+Mobile+Tools" onclick="return checkRedirect('');"><img class="sociallogo" src="/assets/public/google-play.png" alt="play-store"></a>
+        <a href="https://play.google.com/store/apps/dev?id=9070296388022589266"><img class="sociallogo" src="/assets/public/google-play.png" alt="play-store"></a>
         <a href="https://f-droid.org/repository/browse/?fdfilter=com.simplemobiletools" onclick="return checkRedirect('https://f-droid.org/repository/browse/?fdfilter=com.simplemobiletools');"><img class="sociallogo" src="/assets/public/f-droid.png" alt="F-Droid"></a>
         <ul class="footer-navigation-list">
           <li class="footer-navigation-item">Replacing your Android applications one by one since 2016</li>

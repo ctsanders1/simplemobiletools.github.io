@@ -1,15 +1,15 @@
 {
   "repos": {
-    "Simple-Calculator": ["Android"],
-    "Simple-Flashlight": ["Android"],
-    "Simple-Music-Player": ["Android"],
-    "Simple-Calendar": ["Android"],
-    "Simple-Notes": ["Android"],
-    "Simple-Draw": ["Android"],
-    "Simple-Gallery": ["Android"],
-    "Simple-Camera": ["Android"],
-    "Simple-File-Manager": ["Android"],
-    "Simple-App-Launcher": ["Android"]
+    "Simple-Calculator": ["Others"],
+    "Simple-Flashlight": ["Others"],
+    "Simple-Music-Player": ["Others"],
+    "Simple-Calendar": ["Featured"],
+    "Simple-Notes": ["Others"],
+    "Simple-Draw": ["Others"],
+    "Simple-Gallery": ["Featured"],
+    "Simple-Camera": ["Others"],
+    "Simple-File-Manager": ["Others"],
+    "Simple-App-Launcher": ["Others"]
   },
   "custom": [
   ]
