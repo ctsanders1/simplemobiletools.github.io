@@ -1,6 +1,5 @@
 {
   "repos": {
-    "Simple-Calculator": ["Others"],
     "Simple-Flashlight": ["Others"],
     "Simple-Music-Player": ["Others"],
     "Simple-Calendar": ["Featured"],
@@ -8,8 +7,7 @@
     "Simple-Draw": ["Others"],
     "Simple-Gallery": ["Featured"],
     "Simple-Camera": ["Others"],
-    "Simple-File-Manager": ["Others"],
-    "Simple-App-Launcher": ["Others"]
+    "Simple-File-Manager": ["Others"]
   },
   "custom": [
   ]
