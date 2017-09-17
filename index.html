@@ -192,6 +192,14 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
+      // userreport
+      window._urq = window._urq || [];
+      _urq.push(['initSite', '7ac18198-1a80-48ab-b3d6-31adc42f8b5b']);
+      (function() {
+        var ur = document.createElement('script'); ur.type = 'text/javascript'; ur.async = true;
+        ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ur, s);
+      })();
     </script>
   </body>
 </html>
