@@ -8,7 +8,8 @@
     "Simple-Gallery": ["Featured"],
     "Simple-Camera": ["Others"],
     "Simple-File-Manager": ["Others"],
-    "Simple-Thank-You": ["Featured"]
+    "Simple-Thank-You": ["Featured"],
+    "Simple-Calculator": ["Others"]
   },
   "custom": [
   ]
