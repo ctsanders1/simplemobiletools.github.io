@@ -2,10 +2,11 @@
   "repos": {
     "Simple-Flashlight": ["Others"],
     "Simple-Music-Player": ["Others"],
-    "Simple-Calendar": ["Featured"],
+    "Simple-Calendar": ["Others"],
     "Simple-Notes": ["Others"],
     "Simple-Draw": ["Others"],
     "Simple-Gallery": ["Featured"],
+    "Simple-Contacts": ["Featured"],
     "Simple-Camera": ["Others"],
     "Simple-File-Manager": ["Others"],
     "Simple-Thank-You": ["Featured"],
