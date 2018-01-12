@@ -12,8 +12,6 @@ Information being collected
 
 Simple Music Player does not collect any personal identifiable information.
 
-The `READ_PHONE_STATE` permission is required only to determine if there is an incoming call, so the music can be paused. This permission also grants access to some personally identifiable information (your phone's IMEI number, your phone number and your network/carrier). This personally identifiable information is never accessed, used, stored or disclosed by Simple Music Player.
-
 Changes to the Policy
 
 If the Policy changes, the modification date below will be updated. The Policy may change from time to time, so please be sure to check back periodically.
