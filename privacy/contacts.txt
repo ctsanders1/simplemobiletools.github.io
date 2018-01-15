@@ -12,6 +12,8 @@ Information being collected
 
 Simple Calendar does not collect any personal identifiable information.
 
+The `WRITE_EXTERNAL_STORAGE` permission is used for importing/exporting contacts from/to .vcf files.
+
 The `READ_CONTACTS` and `WRITE_CONTACTS` permissions are used for accessing contact information, modifying them and creating new contacts.
 
 Changes to the Policy
