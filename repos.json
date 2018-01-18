@@ -1,5 +1,6 @@
 {
   "repos": {
+    "Simple-App-Launcher": ["Others"],
     "Simple-Flashlight": ["Others"],
     "Simple-Music-Player": ["Others"],
     "Simple-Calendar": ["Others"],
