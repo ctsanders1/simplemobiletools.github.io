@@ -92,7 +92,7 @@ for category_name in sorted(categories.keys(), key=lambda s: s.lower() if s is n
       'name': name,
       'github': repo_data['html_url'],
       'playstore': 'https://play.google.com/store/apps/details?id=com.simplemobiletools.' + shortname,
-      'f-droid': 'https://f-droid.org/repository/browse/?fdid=com.simplemobiletools.' + shortname,
+      'f-droid': 'https://f-droid.org/packages/com.simplemobiletools.' + shortname,
       'description': repo_data.get('description', None)
     }
     if os.path.exists(os.path.join('repo_images', '%s.png' % name)):
