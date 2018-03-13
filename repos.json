@@ -11,7 +11,8 @@
     "Simple-Camera": ["Others"],
     "Simple-File-Manager": ["Others"],
     "Simple-Thank-You": ["Featured"],
-    "Simple-Calculator": ["Others"]
+    "Simple-Calculator": ["Others"],
+    "Simple-Clock": ["Others"]
   },
   "custom": [
   ]
