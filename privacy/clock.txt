@@ -12,11 +12,13 @@ Information being collected
 
 Simple Clock does not collect any personal identifiable information.
 
+The `READ_EXTERNAL_STORAGE` permission is used for picking custom ringtones from the device used at alarms or timers.
+
 Changes to the Policy
 
 If the Policy changes, the modification date below will be updated. The Policy may change from time to time, so please be sure to check back periodically.
 
-Last modified: 13 March, 2018.
+Last modified: 30 March, 2018.
 
 Contact
 
