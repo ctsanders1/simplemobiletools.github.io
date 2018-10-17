@@ -10,7 +10,7 @@ By using Simple Contacts, you agree that your personal information will be handl
 
 Information being collected
 
-Simple Calendar does not collect any personal identifiable information.
+Simple Contacts does not collect any personal identifiable information.
 
 The `WRITE_EXTERNAL_STORAGE` permission is used for importing/exporting contacts from/to .vcf files.
 
